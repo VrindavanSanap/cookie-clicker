@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+h1{
+  text-align: center;
+}
+.cookie_div{
+  height: 300px;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.cookie_count{
+  font-size: 25px;
+}
+.cookie_img{
+  height: 300px;
+  cursor: pointer;
+  margin-top: 10px;
+transition: height 0.3s;
+
+}
+
+.cookie_img:active{
+transform: scale(0.98);}
